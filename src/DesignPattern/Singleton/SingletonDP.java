@@ -1,4 +1,4 @@
-package DesignPattern;
+package DesignPattern.Singleton;
 
 public class SingletonDP {
     //variable can't change (private and static) and make instance null
@@ -12,8 +12,13 @@ public class SingletonDP {
         //create instance when it needed
         if (instance==null){
             instance = new SingletonDP();
+            System.out.println("Instance Created");
         }
         return instance;
+    }
+
+    public void msg(){
+        System.out.println("Message");
     }
 
 }
