@@ -1,8 +1,8 @@
 package DesignPattern.Singleton;
 
-public class Singleton2 {
+public class SingletonDemo {
     public static void main(String[] args) {
-        SingletonDP singletonDP = SingletonDP.getInstance();
+        SingletonObject singletonDP = SingletonObject.getInstance();
         singletonDP.msg();
     }
 }
